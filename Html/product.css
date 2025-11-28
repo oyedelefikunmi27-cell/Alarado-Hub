@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: ivory;
+    padding: 10px 50px;
+    border: solid 15px turquoise;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+    border: blue 5x solid;
+    justify-content: space-around;
+}
+
+
+.middle {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftnavdiv {
+    font-weight: 200px;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.middlenavdiv {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middlenavdiv a {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.maincontent {
+    display: flex;
+    margin: 40px 0;
+}
+
+.mainright {
+    width: 75%;
+    margin: 0px 40px;
+    height: 100%;
+}
+
+.checkmarks {
+    display: flex;
+    margin-top: 20px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: cursive;
+}
+
+button {
+    color: rebeccapurple;
+    margin-right: 15px;
+    padding: 5px 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: x-small;
+
+}
+
+.aside {
+    background-color: turquoise;
+    padding: 15px 20px;
+    height: 100%;
+}
+
+.aside ul {
+    padding: 18px;
+}
+
+.aside li {
+    list-style: none;
+    padding: 30px 5px;
+}
+
+.imgcontainer {
+    height: 150px;
+    width: 150px;
+}
+
+.imgcontainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.aside a {
+    text-decoration: none;
+    padding: 5px 10px;
+    }
+    .aside a:hover {
+        background-color: mediumturquoise;
+    }
+.imgcontainer img:hover{
+     box-shadow: 2px 2px 5px;
+}
